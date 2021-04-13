@@ -38,11 +38,6 @@ nav {
     background-size: auto;
     background-attachment: fixed;
     padding-top: 50px;
-
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-direction: forwards;
 }
 
 /*..........Home section.......*/
@@ -50,7 +45,7 @@ nav {
 section div {
     font-family: 'Roboto', sans-serif;
     color: #555555;
-    line-height: 20px;
+    line-height: 400%;
     letter-spacing: 0.1rem;
 }
 
