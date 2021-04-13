@@ -44,3 +44,19 @@ nav {
     animation-duration: 5s;
     animation-direction: forwards;
 }
+
+/*..........Home section.......*/
+
+section div {
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+    line-height: 20px;
+    letter-spacing: 0.1rem;
+}
+
+/*..........icons.......*/
+.fas {
+    padding-left: 20px;
+    font-size: 115%;
+    color: black;
+}
