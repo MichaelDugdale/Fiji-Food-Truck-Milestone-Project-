@@ -15,7 +15,12 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-repeat: no-repeat;
+}
+
+.logo-2 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
 }
 
 nav {
@@ -42,17 +47,21 @@ nav {
 
 /*..........Home section.......*/
 
+.section-1 {
+    padding-bottom: 175px;
+}
+
 .Ethos-heading {
     text-align: center;
     font-size: 225%;
-    padding-bottom: 25px;
+    padding-bottom: 75px;
 
 }
 
 section div {
     font-family: 'Roboto', sans-serif;
     color: #555555;
-    line-height: 175%;
+    line-height: 225%;
     letter-spacing: 0.1rem;
 }
 
@@ -68,10 +77,10 @@ section div {
 .gallery-heading {
     text-align: center;
     padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
 }
 
-.gallery-pic {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 7.5px;
+.picture-row-2 {
+    max-height: 75px;
 }
