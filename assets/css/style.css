@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+
+.invisible-border {
+    clear: both;
+    visibility: hidden;
+}
+
+
 /*.................header......*/
 
 .header {
@@ -72,15 +79,11 @@ section div {
     color: black;
 }
 
-/*..........gallery.......*/
+/*..........Picture gallery.......*/
 
 .gallery-heading {
     text-align: center;
     padding-bottom: 25px;
     font-family: 'Roboto', sans-serif;
     color: #555555;
-}
-
-.picture-row-2 {
-    max-height: 75px;
 }
