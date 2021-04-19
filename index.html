@@ -21,7 +21,7 @@
             <div class="col-4">
                 <h2 class="header">Fiji Food Truck</h2>
             </div>
-            <div class="col-4" style="text-align: center; padding-top: 25px;">
+            <div class="col-4 go-left" style="text-align: center; padding-top: 25px;">
                 <img src="assets/images/Fiji food truck logo.jpg" class="logo justify-content-center"
                     alt="Fiji Food Truck Logo">
             </div>
@@ -37,8 +37,10 @@
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
                                 <a class="nav-item nav-link" href="index.html">Home | </a>
-                                <a class="nav-item nav-link" href="*"> Book us |</a>
-                                <a class="nav-item nav-link active" href="*"> Menu</a>
+                                <a class="nav-item nav-link" href="contact.html"> Book us |</a>
+                                <a class="nav-item nav-link" href="aboutus.html"> About us |</a>
+                                <a class="nav-item nav-link active" href="assets/images/menu.jpg" target="_blank">
+                                    Menu</a>
                     </nav>
             </div>
 
@@ -140,7 +142,7 @@
     <footer>
         <div class="row contact-footer container-fluid">
             <h2 class="contact-header">Contact</h2>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-12">
                 <table class="contact-text-align">
                     <h4 class="open-header">Opening Hours</h4>
                     <tr>
@@ -163,29 +165,32 @@
             </div>
 
 
-            <div class="col-4">
+            <div class="col-lg-4 col-md-12">
                 <h4 class="open-header">Get in touch</h4>
                 <p class="contact-text-align">555-555-5554<br>Fijifoodtruck@gmail.com</p>
                 <h4 class="open-header">Address</h4>
                 <p class="contact-text-align">Victoria Parade, Suva, Fiji</p>
 
             </div>
-            <div class="col-4">
-                <form>
-                    <label for="newsletter-email"></label>
-                    <input id="newsletter-email" type="text" name="newsletter_email" placeholder="Email">
-                    <input id="sign-up" type="submit" value="Sign Up!" class="hvr-grow">
-                </form>
+            <div class="col-lg-4 col-md-12 text-center">
+                <p>Subscribe for our newsletter!</p>
+                <a href="#openModal"><button type="button" class="btn btn-outline-secondary">Subscribe</button></a>
+
+                <div id="openModal" class="modalDialog">
+                    <div>
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h3>Newsletter</h3>
+                        <p>Subscirbe for our weekly newsletter so you never miss out on our latest recipes and events!
+                        </p>
+                        <input type="email" placeholder="Email" name="monthly-email">
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
         <hr>
-        <div class="row">
-            <div class="col-12" id="map-wrapper">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3791.3625576756344!2d178.42275071471482!3d-18.14720488762753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6e1bdc2344367bf5%3A0x4ddbae9ffcfd0c18!2sAlbert%20Park!5e0!3m2!1sen!2suk!4v1618480520008!5m2!1sen!2suk"
-                    width="100%" height="300"></iframe>
-            </div>
-        </div>
         <div class="row">
             <div class="col-12">
                 <ul class="list-inline social-links">
