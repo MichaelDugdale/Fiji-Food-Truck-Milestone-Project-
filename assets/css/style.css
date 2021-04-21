@@ -14,7 +14,41 @@
     text-align: center;
 }
 
+.verticle-align-middle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
+
+/*..........Full background.......*/
+.full-bg-1 {
+    height: 100%;
+    width: 100%;
+    background-color: #85e3f0;
+    clip-path: polygon(0 21%, 100% 14%, 99% 82%, 0 95%);
+    z-index: -1;
+}
+
+
+.full-bg-2 {
+    height: 100%;
+    width: 100%;
+    background-color: #aaeeee;
+    clip-path: polygon(0 9%, 100% 16%, 99% 84%, 1% 75%);
+    z-index: -1;
+}
+
+.full-bg-3 {
+    height: 100%;
+    width: 100%;
+    background-color: #ade9eb;
+    clip-path: polygon(0 21%, 100% 14%, 99% 82%, 0 95%);
+    z-index: -1;
+}
 
 
 /*.................header......*/
@@ -167,6 +201,22 @@ section div {
     margin: 0 auto;
 }
 
+.fa-facebook:hover {
+    color: rgb(68, 60, 155);
+}
+
+.fa-instagram:hover {
+    color: rgb(197, 52, 8)
+}
+
+.fa-twitter:hover {
+    color: rgb(29, 200, 243)
+}
+
+.fa-linkedin:hover {
+    color: rgb(10, 10, 177)
+}
+
 /*--------------Contact page form--------------*/
 :placeholder-shown {
     font-size: 85%;
@@ -194,6 +244,27 @@ textarea {
     letter-spacing: 0.1rem;
     padding-top: 1rem;
 }
+
+/*..........About us.......*/
+
+
+.about-us-header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image-move-right {
+    padding-left: 15%;
+    padding-top: 15%;
+}
+
+.about-us-p {
+    padding-left: 25px;
+    letter-spacing: 2px;
+}
+
 
 
 

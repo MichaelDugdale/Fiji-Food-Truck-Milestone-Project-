@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
     <!-- Header -->
     <header>
         <div class="row">
@@ -60,15 +61,69 @@
     </div>
     <hr>
 
-    <!---business ethos-->
+    <!---about us-->
+    <article>
+        <h2 class="text-center about-us-header">About us</h2>
 
+        <div class="row">
+            <div class="col-5 verticle-align-middle about-us-p">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo est dicta velit magnam iste rem
+                    aperiam quos libero nulla totam adipisci aliquid, itaque, ullam perferendis consequatur deleniti
+                    deserunt sit. Velit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo est dicta
+                    velit
+                    magnam iste rem
+                    aperiam quos libero nulla totam adipisci aliquid, itaque, ullam perferendis consequatur deleniti
+                    deserunt sit. Velit?</p>
+            </div>
+            <div class="col-6">
+                <img src="assets/images/Kids-food-truck.jpg" class="img-fluid image-move-right">
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-5 verticle-align-middle about-us-p">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo est dicta velit magnam iste rem
+                    aperiam quos libero nulla totam adipisci aliquid, itaque, ullam perferendis consequatur deleniti
+                    deserunt sit. Velit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo est dicta
+                    velit
+                    magnam iste rem
+                    aperiam quos libero nulla totam adipisci aliquid, itaque, ullam perferendis consequatur deleniti
+                    deserunt sit. Velit?</p>
+            </div>
+            <div class="col-6">
+                <img src="assets/images/Kids-food-truck.jpg" class="img-fluid image-move-right">
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-5 verticle-align-middle about-us-p">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo est dicta velit magnam iste rem
+                    aperiam quos libero nulla totam adipisci aliquid, itaque, ullam perferendis consequatur deleniti
+                    deserunt sit. Velit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo est dicta
+                    velit
+                    magnam iste rem
+                    aperiam quos libero nulla totam adipisci aliquid, itaque, ullam perferendis consequatur deleniti
+                    deserunt sit. Velit?</p>
+            </div>
+            <div class="col-6">
+                <img src="assets/images/Kids-food-truck.jpg" class="img-fluid image-move-right">
+            </div>
+        </div>
+
+
+    </article>
     <hr>
     <hr>
     <!---Footer-->
     <footer>
+
         <div class="row contact-footer container-fluid">
             <h2 class="contact-header">Contact</h2>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-12">
                 <table class="contact-text-align">
                     <h4 class="open-header">Opening Hours</h4>
                     <tr>
@@ -91,21 +146,33 @@
             </div>
 
 
-            <div class="col-4">
+            <div class="col-lg-4 col-md-12">
                 <h4 class="open-header">Get in touch</h4>
                 <p class="contact-text-align">555-555-5554<br>Fijifoodtruck@gmail.com</p>
                 <h4 class="open-header">Address</h4>
                 <p class="contact-text-align">Victoria Parade, Suva, Fiji</p>
 
             </div>
-            <div class="col-4">
-                <form>
-                    <label for="newsletter-email"></label>
-                    <input id="newsletter-email" type="text" name="newsletter_email" placeholder="Email">
-                    <input id="sign-up" type="submit" value="Sign Up!" class="hvr-grow">
-                </form>
+            <div class="col-lg-4 col-md-12 text-center">
+                <p>Subscribe for our newsletter!</p>
+                <a href="#openModal"><button type="button" class="btn btn-outline-secondary">Subscribe</button></a>
+
+                <div id="openModal" class="modalDialog">
+                    <div>
+                        <a href="#close" title="Close" class="close">X</a>
+                        <h3>Newsletter</h3>
+                        <p>Subscirbe for our weekly newsletter so you never miss out on our latest recipes and
+                            events!
+                        </p>
+                        <input type="email" placeholder="Email" name="monthly-email">
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
+
         <hr>
         <div class="row">
             <div class="col-12">
@@ -137,6 +204,8 @@
                 </ul>
             </div>
         </div>
+
+
     </footer>
 
     <!---JS-->
@@ -150,5 +219,3 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 </body>
-
-</html>
