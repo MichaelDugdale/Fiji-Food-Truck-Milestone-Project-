@@ -10,3 +10,8 @@ as a user i want to be able to know the location on any given day
 as a user i want to be able to see what food is avaiable 
 as a user i want to know how the food is sourced so i can make informed decisions
 as a user i want to be able to easily find your social media accounts so i stay up to date  
+
+
+Code inspiration
+https://www.youtube.com/watch?v=1WZpb5-00XE&ab_channel=FRONTENDBEAST
+https://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-css3/

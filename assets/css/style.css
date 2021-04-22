@@ -12,6 +12,7 @@
 
 .text-center {
     text-align: center;
+    margin: 0 auto;
 }
 
 .verticle-align-middle {
@@ -29,7 +30,7 @@
     height: 100%;
     width: 100%;
     background-color: #85e3f0;
-    clip-path: polygon(0 21%, 100% 14%, 99% 82%, 0 95%);
+    clip-path: polygon(0 0, 83% 0, 85% 100%, 0 100%);
     z-index: -1;
 }
 
@@ -97,9 +98,20 @@ nav {
 }
 
 .hero-image-contact {
-    height: 450px;
+    height: 375px;
     width: 100%;
     background: url("../images/food\ truck\ hero\ pic\ 2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+
+.hero-image-aboutus {
+    height: 375px;
+    width: 100%;
+    background: url("../images/hero-image-3.jpg");
     background-position: center;
     background-repeat: repeat-x;
     background-size: auto;
@@ -142,6 +154,30 @@ section div {
     font-family: 'Roboto', sans-serif;
     color: #555555;
 }
+
+/*..........Picture gallery.......*/
+/*..........code taken from love running project and altered.......*/
+
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photo img {
+
+    width: 100%;
+    padding: 20px;
+}
+
+#photo img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
 
 /*..........Footer.......*/
 
@@ -203,18 +239,27 @@ section div {
 
 .fa-facebook:hover {
     color: rgb(68, 60, 155);
+    transition-property: color;
+    transition-duration: 1.5s;
+
 }
 
 .fa-instagram:hover {
-    color: rgb(197, 52, 8)
+    color: rgb(197, 52, 8);
+    transition-property: color;
+    transition-duration: 1.5s;
 }
 
 .fa-twitter:hover {
-    color: rgb(29, 200, 243)
+    color: rgb(29, 200, 243);
+    transition-property: color;
+    transition-duration: 1.5s;
 }
 
 .fa-linkedin:hover {
-    color: rgb(10, 10, 177)
+    color: rgb(10, 10, 177);
+    transition-property: color;
+    transition-duration: 1.5s;
 }
 
 /*--------------Contact page form--------------*/
@@ -237,6 +282,10 @@ section div {
     padding-top: 50px;
 }
 
+.contact-btn {
+    padding-top: 2px;
+}
+
 label,
 input,
 textarea {
@@ -251,19 +300,20 @@ textarea {
 .about-us-header {
     padding-top: 25px;
     padding-bottom: 25px;
-    font-weight: 700;
+    font-weight: 400;
     font-family: 'Roboto', sans-serif;
 }
 
-.image-move-right {
-    padding-left: 15%;
-    padding-top: 15%;
+.about-us-p {
+    margin-left: 1rem;
+    letter-spacing: 0.3rem;
+    font-size: 2vh;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-.about-us-p {
-    padding-left: 25px;
-    letter-spacing: 2px;
-}
 
 
 
@@ -353,5 +403,37 @@ textarea {
         padding-bottom: 100px;
         padding-right: 41px;
         margin-right: 41px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 1024px) {
+    .verticle-align-middle-media {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1024px) {}
+
+.about-us-p {
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .image-size-decrease {
+        height: 575px;
+        padding-left: 75px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    #photo {
+        column-count: 2;
     }
 }
