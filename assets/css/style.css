@@ -26,6 +26,12 @@
 
 
 /*..........Full background.......*/
+.full-bg-icons {
+    height: 100%;
+    width: 100%;
+    background-color: #555555;
+}
+
 .full-bg-1 {
     height: 100%;
     width: 100%;
@@ -66,12 +72,6 @@
 .logo {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-}
-
-.logo-2 {
-    width: 75px;
-    height: 75px;
     border-radius: 50%;
 }
 
@@ -129,7 +129,15 @@ nav {
     text-align: center;
     font-size: 225%;
     padding-bottom: 75px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #555555;
+}
 
+.ethos-subheading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-bottom: 10px;
 }
 
 section div {
@@ -152,6 +160,7 @@ section div {
     text-align: center;
     padding-bottom: 25px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     color: #555555;
 }
 
@@ -190,7 +199,9 @@ section div {
 
 .contact-header {
     padding-bottom: 15px;
+    padding-left: 30px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 .contact-text-align {
@@ -205,6 +216,9 @@ section div {
     text-align: center;
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* map */
@@ -240,26 +254,26 @@ section div {
 .fa-facebook:hover {
     color: rgb(68, 60, 155);
     transition-property: color;
-    transition-duration: 1.5s;
+    transition-duration: 0.75s;
 
 }
 
 .fa-instagram:hover {
     color: rgb(197, 52, 8);
     transition-property: color;
-    transition-duration: 1.5s;
+    transition-duration: 0.75s;
 }
 
 .fa-twitter:hover {
     color: rgb(29, 200, 243);
     transition-property: color;
-    transition-duration: 1.5s;
+    transition-duration: 0.75s;
 }
 
 .fa-linkedin:hover {
     color: rgb(10, 10, 177);
     transition-property: color;
-    transition-duration: 1.5s;
+    transition-duration: 0.75s;
 }
 
 /*--------------Contact page form--------------*/
