@@ -66,7 +66,8 @@
     color: #555555;
     text-align: center;
     padding-top: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 .logo {
@@ -129,8 +130,8 @@ nav {
     text-align: center;
     font-size: 225%;
     padding-bottom: 75px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     color: #555555;
 }
 
