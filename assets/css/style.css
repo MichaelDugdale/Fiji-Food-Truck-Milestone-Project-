@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
+
 .invisible-border {
     clear: both;
     visibility: hidden;
@@ -36,27 +37,33 @@
     height: 100%;
     width: 100%;
     background-color: #85e3f0;
-    clip-path: polygon(0 0, 83% 0, 85% 100%, 0 100%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 50%, 70% 100%, 30% 100%, 0 100%, 0 51%);
     z-index: -1;
 }
-
 
 .full-bg-2 {
     height: 100%;
     width: 100%;
-    background-color: #aaeeee;
-    clip-path: polygon(0 9%, 100% 16%, 99% 84%, 1% 75%);
+    background-color: #88b8f0;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 50%, 70% 100%, 30% 100%, 0 100%, 0 51%);
     z-index: -1;
 }
 
 .full-bg-3 {
     height: 100%;
     width: 100%;
-    background-color: #ade9eb;
-    clip-path: polygon(0 21%, 100% 14%, 99% 82%, 0 95%);
+    background-color: #5e9fe9;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 50%, 70% 100%, 30% 100%, 0 100%, 0 51%);
     z-index: -1;
 }
 
+.full-bg-4 {
+    height: 100%;
+    width: 100%;
+    background-color: #648af1;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 50%, 70% 100%, 30% 100%, 0 100%, 0 51%);
+    z-index: -1;
+}
 
 /*.................header......*/
 
@@ -64,15 +71,14 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #555555;
-    text-align: center;
     padding-top: 30px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
 }
 
@@ -90,10 +96,10 @@ nav {
 .hero-image {
     height: 375px;
     width: 100%;
-    background: url("../images/hero-image.jpg");
+    background: url("../images/hero-image-home.jpg");
     background-position: center;
-    background-repeat: repeat-x;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     padding-top: 50px;
 }
@@ -101,9 +107,9 @@ nav {
 .hero-image-contact {
     height: 375px;
     width: 100%;
-    background: url("../images/food\ truck\ hero\ pic\ 2.jpeg");
+    background: url("../images/hero-image.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-size: auto;
     background-attachment: fixed;
     padding-top: 50px;
@@ -254,7 +260,7 @@ section div {
     text-align: center;
     padding: 0 15px 15px 15px;
     border-radius: 50%;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 7px;
     color: #cfccc6
 }
@@ -297,6 +303,11 @@ section div {
 .contact-form {
     padding-top: 35px;
 }
+
+form {
+    padding-left: 15px;
+}
+
 
 .Hire-us-p {
     letter-spacing: 2px;
@@ -351,9 +362,9 @@ textarea {
     }
 }
 
-@media (max-width: 768px) {
-    .go-left {
-        padding-right: 200px;
+@media (max-width: 1660) {
+    .nav a {
+        font-size: 8px;
     }
 }
 
