@@ -344,14 +344,25 @@ textarea {
 
 .about-us-p {
     margin-left: 1rem;
-    letter-spacing: 0.3rem;
-    font-size: 2vh;
-    font-weight: 400;
-    line-height: 30px;
+    margin-right: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
     font-family: 'Roboto', sans-serif;
-
 }
 
+.about-us-images {
+    border: none !important;
+    margin-top: 20px;
+    height: 600px;
+    width: auto;
+}
+
+.about-us-headings {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
 
 /*----------media quierys----------*/
 
