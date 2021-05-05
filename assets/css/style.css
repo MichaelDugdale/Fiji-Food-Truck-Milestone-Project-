@@ -207,7 +207,7 @@ section div {
 .contact-text-align {
     text-align: center;
     margin: 0 auto;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 4px;
     padding-bottom: 4px;
     color: white;
@@ -229,6 +229,7 @@ section div {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     padding-top: 10px;
+    padding-bottom: 45px;
     color: white;
 }
 
@@ -334,11 +335,14 @@ textarea {
 
 /*..........About us.......*/
 
+.bg-color-aboutus {
+    background-color: rgba(111, 111, 111, 0.2);
+}
 
 .about-us-header {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-weight: 400;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -346,8 +350,8 @@ textarea {
     margin-left: 1rem;
     margin-right: 1rem;
     letter-spacing: 0.1rem;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
 }
 
 .about-us-images {
@@ -360,8 +364,8 @@ textarea {
 .about-us-headings {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 500;
-    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*----------media quierys----------*/
@@ -372,13 +376,6 @@ textarea {
         display: none;
     }
 }
-
-@media (max-width: 1660) {
-    .nav a {
-        font-size: 8px;
-    }
-}
-
 
 @media (min-width: 280px) and (max-width: 1024px) {
     .verticle-align-middle-media {
