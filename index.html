@@ -147,7 +147,14 @@
                 <div>
                     <div>
                         <input type="email" placeholder="Email" name="monthly-email" class="text-align email-input">
-                        <button type="button" class="btn btn-outline-light btn-footer newsletter-btn">Submit</button>
+                        <button type="button" class="btn btn-outline-light btn-footer newsletter-btn"
+                            onclick="myFunction()">Submit</button>
+                        <!---alert box code taken from w3schools-->
+                        <script>
+                            function myFunction() {
+                                alert("Email has been received!");
+                            }
+                        </script>
                     </div>
                 </div>
                 <br>
@@ -183,7 +190,6 @@
             </div>
         </div>
     </footer>
-
     <!---JS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

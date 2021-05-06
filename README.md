@@ -4,7 +4,7 @@ Create a website for a catering business, with the goal being to  Raise Brand aw
 
 ## UX
 
-![ResponsiveDesign](/images/wireframes/MSPresponsive.png)
+![ResponsiveDesign](/assets/wireframes/MSPresponsive.png)
 
 ### user stories
 * as a user i want to be able to book the truck for private hire
@@ -19,7 +19,7 @@ Create a website for a catering business, with the goal being to  Raise Brand aw
 
 ### wireframes
 
-![wireframes]((/images/wireframes/Milestoneproject1.png))
+![wireframes](/assets/wireframes/MSPIC.png)
 
 
 ### features
@@ -70,10 +70,13 @@ Create a website for a catering business, with the goal being to  Raise Brand aw
 - [Balsamiq](https://balsamiq.com/) - used to create the project's wireframes.
 - [Gitpod](https://gitpod.io/) - used to develop the website.
 - [GitHub](https://github.com/) - used to host the project.
-- [Google Fonts](https://fonts.google.com/) - used to provide the fonts Josefin Slab for the main text, and Fredericka the Great for headers.
+- [Google Fonts](https://fonts.google.com/) 
 - [Font Awesome](https://fontawesome.com/) - used the font awesome icons to style the information and the links in the footer, and also to make the Reservation section stand out a small bit.
 - [Am I Responsive](http://ami.responsivedesign.is) - Testing of the site to make sure it's responsive
-- [The W3C Markup Validation Service](https://validator.w3.org/) - For testing of all the HTML and CSS, looking for flaws in the code
+- [The W3C Markup Validation Service](https://validator.w3.org/) - For testing of all the HTML and CSS
+
+
+## Testing
 
 ### First Test - Manual testing in Chrome Dev Tools
 Using Dev Tools, checking booth responsiveness, navigation and links. One screen size at a time.
@@ -90,7 +93,9 @@ Using Dev Tools, checking booth responsiveness, navigation and links. One screen
     - Links and Buttons - Making sure links and buttons take you where they should
     - Navigation - Testing navigation, making sure it's visible and that the dropdown for mobile screens is not visible
 
+### Browser compatibility
 
+- works as intended on chrome, firefox and opera, IE works the same however the wanted google fonts dont come through, however the site is still fine to navigate.
 
 ### Second Test - Validation of code using W3C Markup Validation Service
 - Testing HTML
@@ -100,10 +105,53 @@ Using Dev Tools, checking booth responsiveness, navigation and links. One screen
 
 ### testing user stories 
 
+* as a user i want to be able to book the truck for private hire
+   - User navigates to the contact page easily and fills in the form and sends the email.
+* as a user i want to be able to know the location on any given day
+   - location is given in the footer on all pages and map is on the contact page.
+* As a user, I want a simple and clean looking website as messy, busy pages with lots of information overwhelms me.
+  - User views the homepage and sees that the colour scheme and layout is very clean and simple and minimalistic, the images and content is well spaced out. With 4 pages all with the same consistent style, with quality images and brief descriptions throughout so not to overwhelm users with too much information.
+* as a user i want to be able to see what food is available.
+  - the menu is available as a PDF found in the nav bar on all pages, pictures of food are displayed in the gallery! 
+* as a user i want to know how the food is sourced so i can make informed decisions
+  - a brief introduction is on the home page and a more indepth account of where the ingredients are sourced can be easily found on the about us page.
+* as a user i want to be able to easily find your social media accounts so i stay up to date 
+  - all social media links found within the footer as clear icons on all pages. 
+* as a user i want to be able to find out who background of the foodtruck and owners/chefs
+  - a brief introduction is on the home page and a more indepth account of the staff and owner can be found by clicking a link on the homepage or using the nav bar to go directly to the about us page.
+* as a user i want to be able to see pictures of food made by the fiji food truck
+  - pictures available on the home page with most of the content available within the gallery page.
 
+  ### bugs
 
+* on smaller devices within the footer a white margin appears on the left, using chrome dev i cant find where this stems from so i am unable to find a way to resolve this.
 
-     
+## Deployment 
+
+### Delopying the project remotely via githubpages:
+
+1. On the menu on the top of the project’s repository on GitHub select Settings.
+2. Scroll down to the GitHub Pages section.
+3. Inside that section, click on the drop-down menu under Source and select Master Branch.
+4. The page refreshes automatically and the website is now deployed.
+5. The link to the webpage is just in the GitHub Pages section down below.
+
+i only used one branch for this project
+
+### delopying he code locally 
+
+1. Go to GitHub.com
+2. Under the this repository’s name, click Clone or download.
+3. Click on the icon that looks like a clipboard on the right side of the URL (this copies URL link)
+4. Open repo or create new repo
+5. Open terminal
+6. Type git clone and paste URL link and press enter.
+
+to open via repl:
+ 1. follow up to step 4 then:
+ 2.  Click on ‘Download Zip’
+ 3. Open IDE Repl.it
+ 4. Upload folder or files
 
 
 

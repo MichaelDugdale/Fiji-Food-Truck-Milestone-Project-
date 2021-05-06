@@ -118,7 +118,13 @@
             </div>
         </div>
         <hr class="invisible-border">
-        <button type="submit" class="btn btn-outline-secondary text-center">Submit</button>
+        <button type="submit" class="btn btn-outline-secondary text-center" onclick="myFunction()">Submit</button>
+        <!---alert box code taken from w3schools-->
+        <script>
+            function myFunction() {
+                alert("Email has been sent!");
+            }
+        </script>
     </form>
     <hr>
 
@@ -164,7 +170,14 @@
                 <div>
                     <div>
                         <input type="email" placeholder="Email" name="monthly-email" class="text-align email-input">
-                        <button type="button" class="btn btn-outline-light btn-footer newsletter-btn">Submit</button>
+                        <button type="button" class="btn btn-outline-light btn-footer newsletter-btn"
+                            onclick="myFunction()">Submit</button>
+                        <!---alert box code taken from w3schools-->
+                        <script>
+                            function myFunction() {
+                                alert("Email has been received!");
+                            }
+                        </script>
                     </div>
                 </div>
                 <br>
