@@ -153,8 +153,13 @@ to open via repl:
  3. Open IDE Repl.it
  4. Upload folder or files
 
+## Credits
 
+#### media 
+ all images taken from The Fiji food truck instagram [Fijifoodtruckinsta](https://www.instagram.com/thefijifoodtruck/?hl=en) 
 
-Code inspiration
-https://www.youtube.com/watch?v=1WZpb5-00XE&ab_channel=FRONTENDBEAST
-https://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-css3/
+#### Acknowledgements
+
+Code institue previous projects as well as my mentor Precious Ijege.
+https://www.youtube.com/watch?v=wfaDzSL6ll0&list=LL&index=13&t=299s&ab_channel=Keepcoding
+
