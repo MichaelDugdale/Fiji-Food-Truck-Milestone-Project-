@@ -102,10 +102,12 @@ Using Dev Tools, checking booth responsiveness, navigation and links. One screen
 ### Second Test - Validation of code using W3C Markup Validation Service
 - Testing HTML
     - Pasted the url of each individual page for validation. A few minor errors in the code was discovered and corrected.
-    ![validator](/assets/wireframes/html validator.png)
+
+    ![validator](/assets/wireframes/htmlval.png)
 - Testing CSS
     - Pasted the complete CSS code in the "jigsaw Validate by direct input"-section. No problems found
-    ![validator](/assets/wireframes/css jigsaw validator.png)
+
+    ![validator](/assets/wireframes/cssval.png)
 
 ### testing user stories 
 
@@ -171,5 +173,4 @@ to open via repl:
 #### Acknowledgements
 
 Code institue previous projects as well as my mentor Precious Ijege.
-https://www.youtube.com/watch?v=wfaDzSL6ll0&list=LL&index=13&t=299s&ab_channel=Keepcoding
 
