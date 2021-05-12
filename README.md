@@ -82,11 +82,11 @@ Create a website for a catering business, with the goal being to  Raise Brand aw
 
 ### First Test - Manual testing in Chrome Dev Tools
 Using Dev Tools, checking booth responsiveness, navigation and links. One screen size at a time.
-- Mobile 
+- Mobile (using Iphones 5 through to Iphone X)
     - Design and responsiveness - Making sure the user experience is good a small screen.
     - Links and Buttons - Making sure links and buttons do what are intended
     - Navigation - Testing the dropdown navigation, making sure it becomes a hamburger button for mobile screens
-- Tablet 
+- Tablet (using Ipad and Ipadpro)
     - Design and responsiveness - Making sure the user experience is good on all platforms and is repsonsive at slightly bigger screen.
     - Links and Buttons - Making sure links and buttons take you where they should
     - Navigation - Testing navigation, making sure it's visible and that the dropdown for mobile screens is not visible
@@ -102,15 +102,17 @@ Using Dev Tools, checking booth responsiveness, navigation and links. One screen
 ### Second Test - Validation of code using W3C Markup Validation Service
 - Testing HTML
     - Pasted the url of each individual page for validation. A few minor errors in the code was discovered and corrected.
+    ![validator](/assets/wireframes/html validator.png)
 - Testing CSS
-    - Pasted the complete CSS code in the "Validate by direct input"-section. No problems found
+    - Pasted the complete CSS code in the "jigsaw Validate by direct input"-section. No problems found
+    ![validator](/assets/wireframes/css jigsaw validator.png)
 
 ### testing user stories 
 
 * as a user i want to be able to book the truck for private hire
-   - User navigates to the contact page easily and fills in the form and sends the email.
+   - User navigates to the contact through the navigation bar located at the top of the page easily and fills in the form and sends the email.
 * as a user i want to be able to know the location on any given day
-   - location is given in the footer on all pages and map is on the contact page.
+   - location is given in the footer on all pages and a map is on the contact page.
 * As a user, I want a simple and clean looking website as messy, busy pages with lots of information overwhelms me.
   - User views the homepage and sees that the colour scheme and layout is very clean and simple and minimalistic, the images and content is well spaced out. With 4 pages all with the same consistent style, with quality images and brief descriptions throughout so not to overwhelm users with too much information.
 * as a user i want to be able to see what food is available.
@@ -128,6 +130,8 @@ Using Dev Tools, checking booth responsiveness, navigation and links. One screen
 
 * on smaller devices within the footer a white margin appears on the left, using chrome dev i cant find where this stems from so i am unable to find a way to resolve this.
 
+* fixed bugs using the html validator and css validator, as i put each page through i would correst an errors found.
+
 ## Deployment 
 
 ### Delopying the project remotely via githubpages:
@@ -137,15 +141,17 @@ Using Dev Tools, checking booth responsiveness, navigation and links. One screen
 3. Inside that section, click on the drop-down menu under Source and select Master Branch.
 4. The page refreshes automatically and the website is now deployed.
 5. The link to the webpage is just in the GitHub Pages section down below.
+![validator](/assets/wireframes/github-pages.png)
 
 i only used one branch for this project
 
-### delopying he code locally 
+### Cloning project locally 
 
 1. Go to GitHub.com
 2. Under the this repository’s name, click Clone or download.
 3. Click on the icon that looks like a clipboard on the right side of the URL (this copies URL link)
-4. Open repo or create new repo
+![validator](/assets/wireframes/Cloning.png)
+4. Open repo or create new repo (optional)
 5. Open terminal
 6. Type git clone and paste URL link and press enter.
 
@@ -158,7 +164,9 @@ to open via repl:
 ## Credits
 
 #### media 
- all images taken from The Fiji food truck instagram [Fijifoodtruckinsta](https://www.instagram.com/thefijifoodtruck/?hl=en) 
+ * all images taken from The Fiji food truck instagram [Fijifoodtruckinsta](https://www.instagram.com/thefijifoodtruck/?hl=en) 
+ * Youtube video for css tricks 
+ - https://www.youtube.com/watch?v=wfaDzSL6ll0&list=LL&index=13&t=299s&ab_channel=Keepcoding 
 
 #### Acknowledgements
 
